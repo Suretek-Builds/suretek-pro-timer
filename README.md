@@ -65,7 +65,7 @@ Here’s an example of how to use the Timer class:
   ```bash
   console.log(timer.getRemainingTime());
 
-  ## License
+## License
 
 The **Suretek Pro Timer** is open-source software licensed under the [MIT License](LICENSE).
 
