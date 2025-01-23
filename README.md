@@ -1,33 +1,19 @@
-# Pro Timer
+# Suretek Pro Timer
 
-A highly customizable, dynamic timer utility for TypeScript and JavaScript projects.
+**Suretek Pro Timer** is a versatile and dynamic TypeScript-based timer utility designed for customizable and flexible use in various projects. It allows you to easily integrate timers with custom formats, and it supports callbacks for timer events like start, pause, resume, and completion.
 
 ## Features
-- Customizable timer formats (`hh:mm:ss`, `mm:ss`, etc.).
-- Callbacks for `onStart`, `onTick`, and `onComplete`.
-- Pause, resume, and reset functionality.
+
+- **Customizable Timer Formats**: Supports `hh:mm:ss` and `mm:ss` formats, giving you flexibility in how the time is displayed.
+- **Timer Control**: Provides methods to start, pause, resume, and stop the timer, offering full control over its behavior.
+- **Event Callbacks**: Includes customizable callbacks for events such as start, pause, resume, and completion.
+- **TypeScript Integration**: Built using TypeScript for better type safety, code clarity, and developer experience.
+- **Easy Integration**: Simple to integrate into any TypeScript or JavaScript project.
 
 ## Installation
-Clone the repository:
-```bash
-git clone https://github.com/your-username/pro-timer.git
-cd pro-timer
-npm install
-npm run build
 
-## Usage
+To use **Suretek Pro Timer** in your project, follow these installation steps:
 
-import { Timer } from './dist/timer';
-
-const timer = new Timer(3600, {
-  format: 'hh:mm:ss',
-  onStart: () => console.log('Timer started!'),
-  onTick: (time) => console.log(`Time left: ${time}`),
-  onComplete: () => console.log('Timer completed!'),
-});
-
-timer.start();
-
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details. 
+1. Clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/your-username/suretek-pro-timer.git
