@@ -20,5 +20,6 @@
   "devDependencies": {
     "@types/node": "^22.10.9",
     "typescript": "^5.7.3"
-  }
+  },
+  "type": "module"
 }

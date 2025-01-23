@@ -1,21 +1,16 @@
 {
     "compilerOptions": {
         "target": "ES6",
-        "module": "CommonJS",
-        "outDir": "./dist",
-        "strict": true,
+        "module": "ESNext", // Ensures ES module support
+        "moduleResolution": "node",
+        "outDir": "./dist", // Your compiled files will go here
         "esModuleInterop": true,
-        "skipLibCheck": true,
-        "declaration": true,
-        "types": [
-            "node"
-        ]
+        "strict": true
     },
     "include": [
         "src/**/*.ts"
-    ],
+    ], // Include all TypeScript files in your src folder
     "exclude": [
-        "node_modules",
-        "dist"
+        "node_modules"
     ]
 }
