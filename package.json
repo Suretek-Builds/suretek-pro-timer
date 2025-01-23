@@ -1,0 +1,24 @@
+{
+  "name": "pro-timer",
+  "version": "1.0.0",
+  "description": "A highly customizable, dynamic timer utility for TypeScript and JavaScript projects.",
+  "main": "dist/timer.js",
+  "types": "dist/timer.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"No test specified\" && exit 1"
+  },
+  "keywords": [
+    "timer",
+    "typescript",
+    "utility",
+    "countdown",
+    "javascript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.9",
+    "typescript": "^5.7.3"
+  }
+}
